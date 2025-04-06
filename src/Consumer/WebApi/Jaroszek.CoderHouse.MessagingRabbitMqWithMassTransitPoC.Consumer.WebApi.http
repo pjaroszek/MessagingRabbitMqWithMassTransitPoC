@@ -1,0 +1,6 @@
+@Jaroszek.CoderHouse.MessagingRabbitMqWithMassTransitPoC.Consumer.WebApi_HostAddress = http://localhost:5003
+
+GET {{Jaroszek.CoderHouse.MessagingRabbitMqWithMassTransitPoC.Consumer.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

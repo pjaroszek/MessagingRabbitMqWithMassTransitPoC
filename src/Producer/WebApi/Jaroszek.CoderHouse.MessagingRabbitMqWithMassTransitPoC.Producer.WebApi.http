@@ -1,0 +1,17 @@
+@Jaroszek.CoderHouse.MessagingRabbitMqWithMassTransitPoC.Producer.WebApi_HostAddress = http://localhost:5196
+
+### Wysłanie wiadomości (nowy endpoint)
+POST http://localhost:5196/api/messages
+Content-Type: application/json
+
+{
+  "content": "Testowa wiadomość z MassTransit i RabbitMQ"
+}
+
+### Alternatywna wersja z innymi danymi
+POST http://localhost:5196/api/messages
+Content-Type: application/json
+
+{
+  "content": "Ważna wiadomość priorytetowa"
+}
