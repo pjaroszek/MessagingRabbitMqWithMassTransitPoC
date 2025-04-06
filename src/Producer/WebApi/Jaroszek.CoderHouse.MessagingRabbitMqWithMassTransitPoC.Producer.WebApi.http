@@ -15,3 +15,19 @@ Content-Type: application/json
 {
   "content": "Ważna wiadomość priorytetowa"
 }
+
+### Alternatywna wersja z error
+POST http://localhost:5196/api/messages
+Content-Type: application/json
+
+{
+  "content": "Wiadomość z error"
+}
+
+### Alternatywna wersja z fail
+POST http://localhost:5196/api/messages
+Content-Type: application/json
+
+{
+  "content": "Wiadomość z fail"
+}
